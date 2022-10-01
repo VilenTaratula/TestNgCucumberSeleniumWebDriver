@@ -5,7 +5,7 @@ Feature: Changing language
     When I change to German
     Then I expect German on page
 
-  Scenario: Change to German
+  Scenario: Try change all languages
     Given I am at main page
     When I change languages
-    Then I expect ganged languages on page
+    Then I expect changed languages on page

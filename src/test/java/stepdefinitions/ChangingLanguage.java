@@ -34,7 +34,7 @@ public class ChangingLanguage {
         actualLanguages =  MainPage.changedLanguages();
     }
 
-    @Then("I expect ganged languages on page")
+    @Then("I expect changed languages on page")
     public void iExpectGagedLanguagesOnPage() {
         assertEquals("\"Hello, sign in\", \"Hola, Identifícate\", \"مرحباً. تسجيل الدخول\", \"שלום, היכנס\"" +
                         ", \"안녕하세요, 로그인\", \"안녕하세요, 로그인\", \"Olá, faça seu login\", \"您好, 登录\"" +
